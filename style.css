@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: lightblue;
+    height: 100px;
+
+}
+.links-fiesp{
+    background-color: red;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+
+}
+.links-site{
+    background-color: blueviolet;
+    height: 80px;
+}
+.main{
+    background-color: tomato;
+    flex-grow: 1;
+}
+.footer{
+    background-color: lightgreen;
+    height: 200px;
+}
